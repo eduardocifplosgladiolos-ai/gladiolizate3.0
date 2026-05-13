@@ -124,7 +124,7 @@ export default function Home() {
             <h3 className="text-neon-cyan">Dosis de Éxito</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '1rem' }}>
               {SECTIONS_DATA.botiquin.dosisExito.map((dosis, i) => (
-                <div key={i} style={{ borderBottom: '1px solid #2a2a35', pb: '0.5rem' }}>
+                <div key={i} style={{ borderBottom: '1px solid #2a2a35', paddingBottom: '0.5rem' }}>
                   <h4 style={{ fontSize: '1rem', margin: 0 }}>{dosis.title}</h4>
                   <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{dosis.desc}</p>
                 </div>
